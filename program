@@ -1,0 +1,42 @@
+#Mujtaba Tirmizi
+#Converting Number Systems to Decimal form.
+#Currently only works for whole numbers
+
+#Takes number and base and converts to decimal
+def convertToDecimal(number, base):
+    number_string = str(number)
+    place = len(number_string) - 1
+    decimal = 0
+    for digit in number_string:
+        digit = int(digit)
+        decimal += digit*(base**place)
+        place -= 1
+    return decimal
+
+#Takes decimal number and base and converts to number of that base
+def convertToBase(number, base):
+    base_number = ""
+    while number != 0:
+        digit = number % base
+        digit = str(digit)
+        base_number = digit + base_number
+        number = int(number/base)
+    base_number = int(base_number)
+    return base_number
+
+number = input("Enter a Number")
+number = int(number)
+baseOriginal = input("What is the Number's Base?")
+baseOriginal = int(baseOriginal)
+baseConvert = input("What base would you like to convert to?")
+baseConvert = int(baseConvert)
+
+
+if baseOriginal == baseConvert:
+    print("The Number is already of base",baseOriginal)
+    sys.exit()
+if baseOriginal != 10:
+    number = convertToDecimal(number, baseOriginal)
+    print("Your Number of base,",base,", was converted to decimal form: ",number)
+finalNumber = convertToBase(number, baseConvert)
+print("The number in base,",baseConvert," is:",finalNumber)
