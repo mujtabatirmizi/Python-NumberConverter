@@ -23,7 +23,18 @@
     <favorites_list name="Python" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="program" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2771739" vertical-offset="612" max-vertical-offset="1190">
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -326,15 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="37341" max-vertical-offset="37893">
           <caret line="2221" column="0" selection-start-line="2221" selection-start-column="0" selection-end-line="2222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1679473" vertical-offset="0" max-vertical-offset="911">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -342,6 +344,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3172338" vertical-offset="0" max-vertical-offset="911">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2771739" vertical-offset="612" max-vertical-offset="1190">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding />
         </state>
       </provider>
